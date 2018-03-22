@@ -1,0 +1,37 @@
+DEVELOPMENT TOOLS
+5.1 GENERAL
+This chapter is about the software language and the tools used in the development of the project. The platform used here is JAVA.
+5.2 FEATURES OF JAVA
+5.2.1 THE JAVA FRAMEWORK
+Java is a programming language originally developed by James Gosling at Sun Microsystemsand released in 1995 as a core component of Sun Microsystems' Java platform. The language derives much of its syntax from C and C++ but has a simpler object model and fewer low-level facilities. Java applications are typically compiled to bytecode that can run on any Java Virtual Machine (JVM) regardless of computer architecture. Java is general-purpose, concurrent, class-based, and object-oriented, and is specifically designed to have as few implementation dependencies as possible. It is intended to let application developers "write once, run anywhere". 
+Java is considered by many as one of the most influential programming languages of the 20th century, and is widely used from application software to web applicationsThe java framework is a new platform independent that simplifies application development internet.Java technology's versatility, efficiency, platform portability, and security make it the ideal technology for network computing. From laptops to datacenters, game consoles to scientific supercomputers, cell phones to the Internet, Java is everywhere! 
+
+5.2.2 OBJECTIVES OF JAVA
+To see places of Java in Action in our daily life, explore java.com. 
+Why Software Developers Choose Java
+Java has been tested, refined, extended, and proven by a dedicated community. And numbering more than 6.5 million developers, it's the largest and most active on the planet. With its versatility, efficiency, and portability, Java has become invaluable to developers by enabling them to: 
+
+•	Write software on one platform and run it on virtually any other platform 
+•	Create programs to run within a Web browser and Web services 
+•	Develop server-side applications for online forums, stores, polls, HTML forms processing, and more 
+•	Combine applications or services using the Java language to create highly customized applications or services 
+•	Write powerful and efficient applications for mobile phones, remote processors, low-cost consumer products, and practically any other device with a digital heartbeat 
+
+Some Ways Software Developers Learn Java
+•	Today, many colleges and universities offer courses in programming for the Java platform. In addition, developers can also enhance their Java programming skills by reading Sun's java.sun.com Web site, subscribing to Java technology-focused newsletters, using the Java Tutorial and the New to Java Programming Center, and signing up for Web, virtual, or instructor-led courses. 
+Object Oriented
+To be an Object Oriented language, any language must follow at least the four characteristics.
+1.Inheritance   :It is the process of creating the new classes and using the behavior of the existing classes by extending them just to reuse  the existing code and adding addition a  features as needed. 
+2.Encapsulation: It is the mechanism of combining the information and providing the abstraction.
+3.Polymorphism: As the name suggest one name multiple form, Polymorphism is the way of providing the different functionality by thefunctions having the same name based on the signatures of the  methods. 
+4.Dynamic binding  : Sometimes we don't have the knowledge of objects about their specific types while writing our code. It is the way of providing the maximum functionality to a program about the specific type at runtime.    
+5.2.3COLLECTIONS:
+                   The Java Collections API's provide Java developers with a set of classes and interfaces that makes it easier to handle collections of objects. In a sense Collection's works a bit like arrays, except their size can change dynamically, and they have more advanced behavior than arrays. In this project we are using Array List for collecting the user input and saving values.
+5.2.4 THREAD:
+In this project threading concept is very important. A thread is a sequential path of code execution within a program. And each thread has its own local variables, program counter and lifetime. Like creation of a single thread, we can also create more than one thread (multithreads) in a program using class Thread or implementing interface Runnable to make our project efficient and dynamic. In our project we are using request process with the help of multi threading concepts.
+5.2.5 SWINGS:
+	Swing, which is an extension library to the AWT, includes new and improved components that enhance the look and functionality of GUIs. Swing can be used to build Standalone swing gui apps as well as Servlets and Applets. It employs a model/view design architecture. Swing is more portable and more flexible than AWT.
+
+
+
+

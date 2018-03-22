@@ -1,0 +1,46 @@
+	String OwnerPrivatekey = null;
+		
+		String filename =request.getParameter("Filename");
+				
+		System.out.println("filename 6666666666666="+filename);
+		
+		String key1=request.getParameter("Key1");
+		
+		System.out.println("Key16666666---:"+key1);
+		
+		Inter in = new Implement();
+		
+		String privateKey =in.getPrivatekey(filename);
+		
+		System.out.println("Filename privateKey ="+privateKey);
+		
+		JOptionPane joptionpane =new JOptionPane("Key1");
+		
+		JDialog jdialog= joptionpane.createDialog("Alert");
+		
+		jdialog.setAlwaysOnTop(true);
+		
+		jdialog.show();
+		
+		
+		String typingPrivatekey =JOptionPane.showInputDialog("Enter Your Privatekey");
+		
+		if(privateKey.equalsIgnoreCase(typingPrivatekey))
+		{
+			System.out.println("matched");		
+				
+				response.sendRedirect("key1.jsp?Key1="+key1+"");
+		}
+		else
+		{
+			System.out.println("failed");
+			
+			JOptionPane.showMessageDialog(null, "Sorry Your key is wrong");
+			
+			response.sendRedirect("userinbox.jsp");
+		}
+		
+		
+	}
+
+}
